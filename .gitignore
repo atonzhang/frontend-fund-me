@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+
+# Environment variables
+.env*.local
+
+# Log files
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# Debug
+npm-debug.log*
+
+# Typescript cache
+*.tsbuildinfo
+
+# Local development files
+*.local
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+*.iml
+*.ipr
+*.iws
