@@ -25,9 +25,8 @@ frontend-fund-me/
 
 The project supports three environments:
 
-1. **Development** - Uses `.env.local` file
-2. **Sepolia Testnet** - Uses `.env.sepolia` file
-3. **Production** - Uses `.env.production` file
+1. **Development** - Uses `.env` file
+2. **Production** - Uses `.env.production` file
 
 ### Environment Variables
 
