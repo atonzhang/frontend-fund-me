@@ -15,8 +15,6 @@ export class BlockchainService {
 
   // Connect wallet
   async connectWallet(): Promise<string[]> {
-    console.log("config info: ", config);
-
     if (typeof window.ethereum !== 'undefined') {
       try {
         const accounts = await window.ethereum.request({ 
