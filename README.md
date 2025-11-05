@@ -25,12 +25,10 @@ This is an Ethereum-based funding DApp that allows users to donate to a contract
 The project supports three environment configurations:
 
 1. **Development** (`development`) - For local development, connects to Sepolia testnet by default
-2. **Test** (`sepolia`) - Sepolia testnet configuration
-3. **Production** (`production`) - Ethereum mainnet configuration
+2. **Production** (`production`) - Ethereum mainnet configuration
 
 Environment configuration files:
-- `.env.local` - Local development environment
-- `.env.sepolia` - Sepolia testnet environment
+- `.env` - Local development environment
 - `.env.production` - Production environment
 
 ## Installation and Running
@@ -58,7 +56,7 @@ npm start
 ## Contract Interaction
 
 This DApp interacts with a smart contract deployed on the Sepolia testnet:
-- Contract Address: `0x0a2f65f50da5e32fd03569cda7af734d049fe0ba`
+- Contract Address: `0x211140a8809524cD8dfE3e2ed85D5d96e8441908`
 - Supported Functions:
   - `fund()` - Fund the contract
   - `withdraw()` - Withdraw funds (contract owner only)
